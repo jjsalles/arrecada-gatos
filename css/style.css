@@ -15,20 +15,19 @@ body{
     min-height: 100vh;
 }
 
-/* Força o fundo da página inteira a ser branco e os textos escuros */
+:root {
+    color-scheme: light !important;
+}
+
 html, body {
     background-color: #ffffff !important;
+    background: #ffffff !important;
     color: #212529 !important;
 }
 
-/* Garante que a seção do topo (onde diz "Ajude os Gatinhos") mantenha o fundo original */
-.card, .banner-img {
-    background-color: #f8f9fa !important; /* Coloque a cor clara que você usou no fundo do computador */
-}
-
-/* Força os textos do cabeçalho a manterem o verde original */
-.text-heather, .text-header {
-    color: #00674f !important;
+/* Garante que o container do topo (onde está escrito Ajude os Gatinhos) fique branco */
+.card {
+    background-color: #ffffff !important;
 }
 
 /* =========================
