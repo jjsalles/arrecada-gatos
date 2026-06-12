@@ -1,0 +1,217 @@
+
+/*div{
+    border: 2px solid red;
+}*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.minha-navbar{
+    background-color: #00674f;
+}
+
+.menu-logo{
+    width: 64px;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin-left: 30%;
+}
+
+.home{
+    margin-right: 2%;
+}
+
+.text-navbar{
+    font-size: larger;
+    font-family: 'quicksand', sans-serif;
+}
+
+.minha-navbar .nav-link,
+.minha-navbar .navbar-brand{
+    color: white;
+}
+
+.minha-navbar .nav-link:hover{
+    color: #d4d4d4;
+}
+
+.minha-navbar .active{
+    color: white !important;
+    font-weight: bold;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.card{
+    border: none;
+    border-radius: 0;
+}
+
+.card img{
+    width: 100%;
+    height: 40vh;
+    min-height: 200px;
+    max-height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.banner-img{
+    height: 40vh;
+    min-height: 250px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.text-heather{
+    color: #00674f;
+
+}
+.card-img {
+    border: none;
+}
+.text-header{
+    font-family: 'fredoka',sans-serif;
+}
+
+
+
+/* =========================
+   MAIN
+========================= */
+
+main{
+    padding: 2rem 0;
+}
+
+.title-main{
+    font-family: 'fredoka', sans-serif;
+}
+
+.text-main{
+    font-family: 'quicksand', sans-serif;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background-color: #00674f;
+    padding: 20px;
+}
+
+.footer-text{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px){
+
+    .menu-logo{
+        width: 56px;
+    }
+
+    .card img{
+        height: 30vh;
+    }
+
+    .navbar-nav{
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+}
+
+/* =========================
+   CELULAR
+========================= */
+
+@media (max-width: 576px){
+
+    .menu-logo{
+        width: 48px;
+    }
+
+    .card img{
+        height: 25vh;
+        min-height: 180px;
+    }
+
+    footer .btn{
+        width: 100%;
+    }
+
+    footer .d-flex{
+        gap: 1rem;
+    }
+
+}
+
+.card img{
+    width: 100%;
+    height: 40vh;
+    min-height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* =========================
+   PAGAMENTO
+========================= */
+
+.pix{
+    padding-left: 20%;
+}
+
+.qrcode{
+    padding-right: 10%;
+    
+}
+.img-qrcode {
+    border: none;
+}
+
+
+/* =========================
+   AGRADECIMENTO
+========================= */
+.agradecimento{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* =========================
+   iMAGENS
+========================= */
+
+img {
+  border: 4px solid #00674f;
+}
+
+/* =========================
+   GALERIA
+========================= */
+.text-galeria{
+    font-size: large;
+}
