@@ -12,6 +12,9 @@
 
 body{
     min-height: 100vh;
+    min-height: 100vh;
+    background-color: #ffffff !important;
+    color: #212529 !important;
 }
 
 /* =========================
@@ -28,6 +31,7 @@ body{
     max-width: 100%;
     object-fit: contain;
     margin-left: 30%;
+    border: none;
 }
 
 .home{
@@ -181,12 +185,7 @@ footer{
 ========================= */
 
 .pix{
-    padding-left: 20%;
-}
-
-.qrcode{
-    padding-right: 10%;
-    
+    padding-left: 15%;
 }
 .img-qrcode {
     border: none;
