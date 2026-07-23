@@ -19,6 +19,7 @@ A aplicação apresenta conteúdos relacionados ao universo felino, utilizando u
 - HTML5
 - CSS3
 - JavaScript
+- Bootstrap
 
 ## Conceitos aplicados
 
@@ -28,9 +29,7 @@ A aplicação apresenta conteúdos relacionados ao universo felino, utilizando u
 - Organização de arquivos e componentes
 - Desenvolvimento de interfaces web
 
-## Execução do projeto
 
-Para executar o projeto localmente:
 
 1. Clone o repositório:
 
